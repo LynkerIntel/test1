@@ -1,0 +1,24 @@
+[project]
+name = "cloudflow"
+version = "0.1.0"
+requires-python = ">=3.10.4"
+readme = "README.md"
+description = "A Python package for cloud-based data processing and visualization."
+dependencies = [
+    "boto3>=1.38.2",
+    "cartopy>=0.24.1",
+    "cmocean>=4.0.3",
+    "dask>=2025.4.0",
+    "distributed>=2025.4.0",
+    "matplotlib>=3.10.1",
+    "netcdf4>=1.7.2",
+    "numpy>=2.2.5",
+    "pillow>=11.2.1",
+    "plotting>=0.0.7",
+    "pyproj>=3.7.1",
+    "xarray>=2025.3.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
